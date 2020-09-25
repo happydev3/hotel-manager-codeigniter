@@ -1,0 +1,68 @@
+﻿#image {
+background: url(redbus/images/ac_semi_sleeper_vacant.png) no-repeat;
+}
+
+.checkbox:checked + .container{
+		outline: 0px solid black;	}
+.container {position: relative;
+		outline: 0px solid white;
+		}
+
+.container:hover {position: relative;
+		outline: 0px solid red;
+			}
+
+.container_vert {  position: relative;
+	outline: 0px solid white;}
+
+.container_vert:hover {  position: relative;
+	outline: 0px solid red;
+		} 
+
+.container_un {position: relative;
+		opacity:0.45;
+		filter:alpha(opacity=45);}
+
+.container_vert_un {  position: relative;
+			opacity:0.45;
+		filter:alpha(opacity=45);}
+.checkbox{position: relative; bottom: 0px; right:0px;}
+.checkbox:hover{
+
+}
+
+/*
+.imagehover{
+outline: 1px solid white; 
+}
+
+.imagehover:hover{
+ outline: 2px solid red; 
+}
+*/
+
+.submit {
+    background-color: #ccc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+     border:none;
+}
+
+
+.submit:hover {
+    border: none;
+   /* background:red; */
+    box-shadow: 0px 0px 1px #777;
+    
+}
+.input{ border:1px solid #C01C22;
+	background: #FDF4A5;
+	font-family:verdana;
+	font-size: 16px;}
+

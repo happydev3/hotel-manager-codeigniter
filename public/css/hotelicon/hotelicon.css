@@ -1,0 +1,265 @@
+@font-face {
+    font-family: 'hotelicon';
+    src: url("hotelicon/hotelicon.eot");
+    src: url("hotelicon/hotelicon.woff") format("woff"),url("hotelicon/hotelicon.svg#hotelicon") format("svg"),url("hotelicon/hotelicon.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+.rs_icon,.rs_car_icon,.rs_icon--car,.rs_icon--air,[class^="rs_icon--"],.rs_fade_text__fade:after {
+    font-family: 'rs';
+    font-style: normal !important;
+    font-weight: normal !important;
+    text-transform: none !important;
+    cursor: default;
+    speak: none !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.rs_car_icon,.rs_icon--car {
+    font-family: 'rs_car'
+}
+
+.rs_icon--air {
+    font-family: 'rs_air'
+}
+
+.rs_icon::selection,.rs_car_icon::selection,.rs_icon--car::selection,.rs_icon--air::selection {
+    background-color: transparent
+}
+
+.rs_icon::-moz-selection,.rs_car_icon::-moz-selection,.rs_icon--car::-moz-selection,.rs_icon--air::-moz-selection {
+    background-color: transparent
+}
+
+.rs_icon--lavatory:before {
+    content: "54"
+}
+
+.rs_icon--money:before {
+    content: "~"
+}
+
+.rs_icon--hotel:before {
+    content: "0"
+}
+
+.rs_icon--globe:before {
+    content: "\e600"
+}
+
+.rs_icon--ethernet:before {
+    content: "\e601"
+}
+
+.rs_icon--wifi:before {
+    content: "s"
+}
+
+.rs_icon--phone:before {
+    content: "'"
+}
+
+.rs_icon--shield:before {
+    content: "\e602"
+}
+
+.rs_icon--parking:before {
+    content: "\e606"
+}
+
+.rs_icon--calendar:before {
+    content: "4"
+}
+
+.rs_icon--map_marker:before {
+    content: "9"
+}
+
+.rs_icon--speech_bubble:before {
+    content: "l"
+}
+
+.rs_icon--breakfast:before {
+    content: "t"
+}
+
+.rs_icon--business:before {
+    content: "A"
+}
+
+.rs_icon--fitness:before {
+    content: "E"
+}
+
+.rs_icon--pet:before {
+    content: "r"
+}
+
+.rs_icon--swim:before {
+    content: "u"
+}
+
+.rs_icon--bus:before {
+    content: "B"
+}
+
+.rs_icon--no_smoking:before {
+    content: "v"
+}
+
+.rs_icon--accessible:before {
+    content: "q"
+}
+
+.rs_icon--sale:before {
+    content: "\e603"
+}
+
+.rs_icon--gift:before {
+    content: "\e604"
+}
+
+.rs_icon--game:before {
+    content: "\e605"
+}
+
+.rs_icon--upgrade:before {
+    content: "\e607"
+}
+
+.rs_icon--nights:before {
+    content: "\e608"
+}
+
+.rs_icon--spa:before {
+    content: "w"
+}
+
+.rs_icon--alcohol:before {
+    content: "G"
+}
+
+.rs_icon--kids:before {
+    content: "x"
+}
+
+.rs_icon--graph:before {
+    content: "\e900"
+}
+
+.rs_icon--business:before {
+    content: "\e901"
+}
+
+.rs_icon--couple:before {
+    content: "\e902"
+}
+
+.rs_icon--stroller:before {
+    content: "\e903"
+}
+
+.rs_icon--family:before {
+    content: "\e904"
+}
+
+.rs_icon--group:before {
+    content: "\e905"
+}
+
+.rs_icon--senior:before {
+    content: "\e906"
+}
+
+.rs_icon--solo:before {
+    content: "\e907"
+}
+
+.rs_icon--phone2:before {
+    content: "\e908"
+}
+
+.rs_icon--point--open--left:before {
+    content: "b"
+}
+
+.rs_icon--point--open--right:before {
+    content: "a"
+}
+
+.rs_icon--point--closed--right:before {
+    content: "6"
+}
+
+.rs_icon--info:before {
+    content: "]"
+}
+
+.rs_icon--warning:before {
+    content: "?"
+}
+
+.rs_icon--check:before {
+    content: "`"
+}
+
+.rs_icon--bed:before {
+    content: "H"
+}
+
+.rs_icon--grid:before {
+    content: "i"
+}
+
+.rs_icon--circleCheck:before {
+    content: "<"
+}
+
+.rs_icon--circleX:before {
+    content: "d"
+}
+
+.rs_stars--0-5:before {
+    content: "f"
+}
+
+.rs_stars--1:before {
+    content: "e"
+}
+
+.rs_stars--1-5:before {
+    content: "ef"
+}
+
+.rs_stars--2:before {
+    content: "ee"
+}
+
+.rs_stars--2-5:before {
+    content: "eef"
+}
+
+.rs_stars--3:before {
+    content: "eee"
+}
+
+.rs_stars--3-5:before {
+    content: "eeef"
+}
+
+.rs_stars--4:before {
+    content: "eeee"
+}
+
+.rs_stars--4-5:before {
+    content: "eeeef"
+}
+
+.rs_stars--5:before {
+    content: "eeeee"
+}
+
+.rs_icon_size--large {
+    font-size: 32px
+}

@@ -1,0 +1,52 @@
+version: '3.5'
+
+services:
+  web:
+    build: .
+    restart: always
+    ports:
+      - "80:80"
+    volumes:
+      - .:/app
+    depends_on:
+      - mysql
+    env_file:
+      - variables.env
+  
+  # mysql:
+  #   restart: always
+  #   image: mysql:5.7
+  #   expose:
+  #     - "3306"
+  #   ports:
+  #     - "3306:3306"
+  #   volumes:
+  #     - mysql:/var/lib/mysql
+  #   env_file:
+  #       - variables.env
+
+  mysql:
+    restart: always
+    image: 'mariadb:latest'
+    expose:
+      - "3306"
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql:/var/lib/mysql
+    env_file:
+        - variables.env
+
+  phpmyadmin:
+    restart: always
+    image: phpmyadmin/phpmyadmin:4.7
+    depends_on:
+      - mysql
+    ports:
+      - "8080:80"
+    env_file:
+      - variables.env
+    
+volumes:
+  mysql:
+    driver: local

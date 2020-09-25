@@ -1,0 +1,1 @@
+   <iframe src = "https://maps.google.com/maps?q=<?php  echo $mapdata->latitude;?>,<?php  echo $mapdata->longitude;?>&hl=es;z=14&amp;output=embed" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>      

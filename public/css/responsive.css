@@ -1,0 +1,824 @@
+﻿
+@media only screen and (max-width: 1400px) and (min-width: 1024px) {
+
+    .travel-mega-menu .center {
+        float: none;
+        border-right-width: 0;
+        border-left-width: 1px;
+    }
+
+        .travel-mega-menu .center > div {
+            -o-transform-origin-x: 100%;
+            -ms-transform-origin-x: 100%;
+            -moz-transform-origin-x: 100%;
+            -webkit-transform-origin-x: 100%;
+        }
+
+        .travel-mega-menu .center:hover > div {
+            right: auto;
+            left: -226px;
+        }
+
+            .travel-mega-menu .center:hover > div:before {
+                right: 50%;
+                left: auto;
+                display: none;
+            }
+}
+
+@media only screen and (max-width: 1400px) {
+    .trip-slide-text {
+        font-size: 70px;
+        padding: 20px 0 40px 0;
+    }
+
+    .trip-slide-price {
+        top: 11%;
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .effects .cbp-vm-view-list .cbp-vm-image {
+        width: 47.6%;
+    }
+
+    .main-switcher .cbp-vm-view-list figcaption {
+        width: 52%;
+    }
+
+    .slide-travel-img {
+        padding: 10px 15px;
+        margin-top: 10px;
+    }
+
+        .slide-travel-img img.star-level {
+            margin: 0 auto 10px auto;
+        }
+
+        .slide-travel-img p {
+            margin-bottom: 0;
+            font-size: 11px;
+        }
+
+    .all-info-trip .trip-slide-price {
+        line-height: 26px;
+        font-size: 14px;
+    }
+
+    .trip-slide-text {
+        padding: 20px 0 20px 0;
+    }
+
+    .all-info-trip .btn-primary {
+        margin-top: 10px;
+    }
+
+    .all-info-trip .trip-slide-price .trip-option ul {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .four-col.col-md-3 {
+        width: 23.5%;
+    }
+    /*meteo i the slider*/
+    .meteo-top-travel.meteo-slider-top .weatherItem {
+        width: 47%;
+    }
+
+    .meteo-top-travel.meteo-slider-top {
+        padding: 0;
+        width: 50%;
+    }
+
+    /*meteo blu color*/
+    .meteo-top-travel .weatherItem {
+        width: 48%;
+    }
+
+    .meteo-top-travel {
+        padding: 0;
+        width: 100%;
+    }
+
+    .content-man {
+        display: none;
+    }
+
+        .content-man.mandesc {
+            display: block;
+        }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1030px) {
+    #home3 .col-md-4 {
+        width: 48%;
+    }
+
+    #home3 .view3-fifth .mask {
+        -webkit-transform: translateY(276px);
+        -moz-transform: translateY(276px);
+        -o-transform: translateY(276px);
+        -ms-transform: translateY(276px);
+        transform: translateY(276px);
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    .caption .largewhitebg_button1 {
+        padding: 7px 20px;
+        font-size: 13px;
+    }
+
+        .caption .largewhitebg_button1:hover {
+            padding: 7px 20px;
+            font-size: 13px;
+        }
+
+    #mobile-menu-01 .line-logo {
+        padding: 0 30px 5px 30px;
+    }
+
+    .header-lang a {
+        padding: 0px 5px 0px 15px;
+    }
+
+    .langs-drop {
+        left: -92px;
+    }
+
+    .caption.black-b1.letter {
+        font-size: 60px;
+    }
+
+    .top-mega-menu {
+        position: relative;
+        margin-top: 0;
+    }
+
+    .travel-mega-menu-mobile li.line-logo:hover a {
+        background: #fff;
+    }
+
+    .top-content {
+        margin-top: 0;
+    }
+
+    .top-mega-menu .container {
+        display: none;
+    }
+
+    #mobile-menu-01 {
+        display: block;
+    }
+
+    .travel-mega-menu-mobile {
+        display: none;
+    }
+
+    .all-info-trip .trip-slide-price .trip-option {
+        display: none;
+    }
+
+    .travel-desc-agency.tt-ipad {
+        width: 100%;
+    }
+
+    /*Hero Slider*/
+
+    .cd-hero-slider .cd-img-container img {
+        width: 80%;
+    }
+
+    .cd-hero-slider .cd-full-width, .cd-hero-slider .cd-half-width {
+        padding-top: 70px;
+    }
+    /*End*/
+
+    .why-choose-us .box-middle-img {
+        left: 65%;
+    }
+
+    .home-page {
+        margin-top: 0;
+    }
+
+    #mobile-menu-01 li.line-logo {
+        background: #fff;
+        display: block;
+        float: none;
+    }
+
+    #mobile-menu-01 li.k-opn {
+        display: table;
+    }
+    /*Form*/
+    .container-slider.removeslide {
+        background: url('../images/slider6.jpg') no-repeat top left;
+        width: 100%;
+        height: 680px;
+        position: relative;
+        -webkit-background-size: cover !important;
+        -moz-background-size: cover !important;
+        -o-background-size: cover !important;
+        background-size: cover !important;
+    }
+
+    .home-page.removeslide {
+        display: none;
+    }
+
+    .container-reservation.inside-slider {
+        top: 160px;
+    }
+
+    #reservation-form .reservation-hotel .step-where, #reservation-form .step-check, #reservation-form .step-who {
+        width: 100%;
+        padding: 0;
+    }
+
+        #reservation-form .step-check .cc-out, #reservation-form .step-who .child {
+            padding-right: 0;
+        }
+
+    #reservation-form .col-sm-2 button {
+        /*margin-top: 20px;*/
+    }
+
+    #reservation-form.pos-inside-slide .reservation-hotel, #reservation-form.pos-inside-slide .reservation-flight {
+        padding: 10px 30px 10px 30px;
+    }
+
+    #reservation-form h3 {
+        font-size: 13px;
+    }
+
+    #reservation-form label {
+        font-size: 11px;
+    }
+
+    #reservation-form .search-opt {
+        margin-bottom: 0;
+    }
+
+    #reservation-form .flight-where, #reservation-form .fly-check {
+        width: 50%;
+        padding-right: 0;
+    }
+
+    #reservation-form .fly-who {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+    /*Midle slider*/
+    .trip-slide-price {
+        top: 5%;
+        padding: 20px 20px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .trip-slide-text {
+        font-size: 40px;
+    }
+
+    .all-info-trip .trip-slide-price span {
+        font-size: 20px;
+    }
+
+    .all-info-trip .btn-primary {
+        margin-top: 5px;
+    }
+
+    .all-info-trip.pannel-radius .trip-slide-price {
+        height: 100%;
+        width: 40%;
+        top: -60px;
+        padding: 20px 30px;
+    }
+
+    .newsletterfooter input[type="text"] {
+        width: 165px;
+    }
+
+    .popover-icon {
+        display: none;
+    }
+    /*Top offert*/
+    .view {
+        margin: 0px 10px 0 0;
+    }
+
+    .travelone-section .view-fifth .mask {
+        padding: 0px 10px 20px 10px;
+    }
+
+    .view-fifth .mask .main .price {
+        padding: 3px 0;
+    }
+
+    /*Home 4 lion*/
+    .mapcont {
+        display: none;
+    }
+
+    .caption.black-b1 {
+        font-size: 33px;
+    }
+
+    #reservation-form .col-sm-2 button.b-frm1 {
+        margin-top: 60px;
+    }
+
+    .home4 .view3 .mask, .home4 .view3 .content {
+        position: relative;
+    }
+
+    .home4 .col-md-4 {
+        width: 32.2%;
+    }
+
+    .home4 .view3-fifth .mask {
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    .home4 .view3-fifth img {
+        margin: 0 auto;
+    }
+
+    .home4 .view3-fifth p {
+        opacity: 1;
+    }
+
+    .home4 .view3-fifth:hover img {
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    .grid figcaption i {
+        margin-right: 5px;
+    }
+
+    .grid figcaption {
+        padding: 15px;
+    }
+
+    #parallax-footer-home3 .col-md-3 .price {
+        padding: 10px 15px;
+    }
+
+    #tt1 .fullwidthbanner-container .fullwidthbanner {
+        margin-top: 0;
+    }
+
+    #reservation-form.home3 .colbtn {
+        margin-top: 61px;
+    }
+
+    #reservation-form.home3 .reservation-flight .colbtn {
+        margin-top: 31px;
+    }
+
+    #parallax-footer-home3 .price-title h3 {
+        padding: 0;
+    }
+    /*Home 2*/
+    .fullwidthbanner-container .fullwidthbanner {
+        margin-top: 0;
+    }
+
+    .col-md-4.prices {
+        margin-bottom: 20px;
+    }
+
+    #reservation-form.home2 .colbtn {
+        margin-top: 61px;
+    }
+
+    #reservation-form.home2 .reservation-flight .colbtn {
+        margin-top: 31px;
+    }
+
+    .grid li {
+        width: 33%;
+        float: left;
+    }
+    /*Oxy Slider*/
+
+    .view-fifth .mask .main .price {
+        width: 35%;
+    }
+
+    .four-col.col-md-3 {
+        width: 24%;
+    }
+
+    /*About 1*/
+
+    .number-structure-left {
+        margin: 0 15px 20px 0;
+        width: 48%;
+        float: left;
+    }
+
+    .desc-office1.about1 {
+        margin-top: 20px;
+    }
+
+    /*page guide*/
+    #meteo-guide .weatherItem {
+        width: 48%;
+    }
+
+    .weatherFeed {
+        margin: 40px 0;
+    }
+
+    .content-number-left {
+        float: left;
+    }
+
+    .about-section-top {
+        margin-top: 0;
+    }
+
+    /*services1*/
+    .service-square.col-md-3 {
+        width: 23.5%;
+    }
+
+    .view-service img {
+        width: 20%;
+    }
+    /*Servies2*/
+    .trip-slide-text.prague {
+        font-size: 60px;
+    }
+
+    .trip-slide-text.nature {
+        left: 37%;
+    }
+
+    .trip-slide-text.egypt {
+        left: 40%;
+    }
+
+    .trip-slide-text.polynesie {
+        left: 33%;
+    }
+
+    .trip-slide-text.francisco {
+        left: 25%;
+    }
+
+    .service2-row img {
+        width: 53%;
+    }
+    /*Information Page*/
+    .customer-image {
+        margin-left: 23%;
+    }
+
+    .info-square i {
+        float: none;
+    }
+
+    .info-square h3, .info-square p {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .col-md-6.box-information {
+        width: 49%;
+    }
+
+    /*Page List trip*/
+    .main-switcher figcaption h3 {
+        float: none;
+    }
+
+    .cbp-vm-options a.cbp-vm-icon {
+        display: none;
+    }
+
+    .cbp-vm-options {
+        height: 64px;
+    }
+    #top.header {
+        height: 33%;
+    }
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+    #mobile-menu-01 .line-logo {
+        padding: 0 20px 5px 20px;
+    }
+
+    .text-center.top-txt-title {
+        margin-top: 200px;
+    }
+
+        .text-center.top-txt-title.best-promo {
+            margin-top: 80px;
+        }
+
+    .container-slider.removeslide-ipad {
+        background: url('../images/slider6.jpg') no-repeat center center;
+        width: 100%;
+        height: 680px;
+        position: relative;
+        -webkit-background-size: cover !important;
+        -moz-background-size: cover !important;
+        -o-background-size: cover !important;
+        background-size: cover !important;
+    }
+
+    .home-page.removeslide-ipad {
+        display: none;
+    }
+
+
+    .footer-small-desc {
+        padding: 0;
+        float: left;
+        margin: 10px 10px;
+    }
+
+    footer h3 {
+        margin-top: 20px;
+    }
+    #top.header {
+        height: 30%;
+    }
+    .signup h4 {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .mobile-hide{
+        display: none;
+    }
+    .result-box .right-section {
+        padding: 15px 20px 0 20px !important;
+    }
+    
+    .white-grid, .result-grid {
+        width: 100%;
+        margin-right: 0;
+    }
+    .nearby .result-box .right-section {
+        padding: 15px !important;
+    }
+    .nearby .white-grid, .nearby .result-grid {
+        width: 100% !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    .search-area .form-control {
+        border-bottom: 1px solid #eee;
+    }
+    .signup input {
+        margin: 10px 0;
+    }
+    .travelone-section .view-fifth .mask {
+        padding: 5px 0px 15px 0px;
+    }
+    .view-fifth .mask .main h3 {
+        font-size: 13px;
+    }
+    .view-fifth p {
+        font-size: 12px;
+        height: 50px;
+    }
+    .search-area .nav-tabs > li > a {
+        font-size: 16px;
+        padding: 4px 15px;
+    }
+    .ajax_dropdown {
+        left: 0px;
+        width: 100%
+    }
+    .ajax_dropdown .title {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+    .dropdown-div {
+        padding: 10px 2px;
+    }
+    .dropdown-list li > div {
+        font-size: 12px;
+        letter-spacing: .1px;
+        padding: 4px 2px;
+        font-weight: bold;
+    }
+    .travelone-section .flex-direction-nav a {
+        opacity: 0;
+    }
+    .travelone-section .flex-direction-nav .flex-prev {
+        left: 5px;
+    }
+    .travelone-section .flex-direction-nav .flex-next {
+        right: 5px;
+    }
+    .modify-search.search-area {
+        padding: 10px 0;
+    }
+    
+    .hotel-details {
+        margin-bottom: 10px;
+    }
+
+
+    .result-details small, .review-details small, .view_rooms a, .view_rooms a i,
+    .hotel-details small, .hotel-details-section .ajax-tab ul li a, .rooms_loop h5 {
+        font-size: 12px;
+    }
+    .result-details h3,.grid-content .result-details h3, .rm-rates h3, .rooms-table h3{
+        font-size: 14px;
+    }
+    .right-section .description .price-tag, .grid-content .price-tag{
+        font-size: 16px;
+    }
+    .detail-content > div > h3{
+        font-size: 18px;
+    }
+    .hotel-details h3, .rm-rates .price-tag, .rm-rates .price-tag i {
+        font-size: 20px;
+    }
+
+    .book-btn {
+        padding: 6px 8px;
+    }
+    .result-box .right-section {
+        padding: 15px 20px 8px 20px;
+    }
+    .result-grid.result-box .right-section {
+        padding: 10px 6px 8px 6px;
+    }
+    .hotel-details-section .ajax-tab ul, .fixed-tab.fixed ul {
+        padding: 5px;
+    }
+    .hotel-details-section .ajax-tab ul li a, .fixed-tab.fixed ul li a {
+        line-height: 32px;
+        padding: 0 5px;
+    }
+    .fixed-tab.fixed {
+        position: static;
+    }
+    .right-sec{
+        padding: 0 20px;
+    }
+    .detail-content.fixed {
+        margin-top: 15px;
+    }
+    .rooms_loop {
+        padding: 8px 5px;
+    }
+    .rooms_loop p {
+        margin: 5px 0;
+        line-height: 1.4;
+    }
+    .feature-list ul {
+        padding: 10px 2px;
+    }
+    .feature-list ul li {
+        padding-bottom: 0;
+        margin: 10px 4px;
+    }
+    .hotel-dtls-amenities ul li {
+        display: block;
+    }
+    .hotel-book-section .middle-container {
+        max-width: 100%;
+    }
+    #reservation-form .col-sm-2 button {
+        margin-top: 0px;
+    }
+
+    .header #reservation-form .tab-content #tours-tab > div{
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .header #reservation-form .tab-content #tours-tab > br{
+        display: none;
+    }
+    .header #reservation-form .tab-content #tours-tab > div.col-sm-2{
+        position: absolute;
+        bottom: 54px;
+        width: 95%;
+    }
+
+    .header #reservation-form .tab-content #tours-tab{
+        padding-bottom: 40px;
+    }
+    #availability .tableview {
+        display: block;
+    }
+    #availability .tableview .result-section, #availability .tableview .price-section {
+        display: block;
+    }
+    #availability .white-container h3 {
+        font-size: 16px;
+    }
+    #availability .white-container p {
+        margin: 0 0 10px;
+        font-size: 12px;
+    }
+    #availability .white-container b {
+        margin: 0;
+        display: inline-block;
+        line-height: 1.54;
+    }
+    #top.header {
+        height: 30%;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    
+    #loading-center-absolute {
+        left: 39%;
+    }
+
+    .text-center.top-txt-title {
+        margin-top: 100px;
+    }
+
+    .container-slider.removeslide {
+        height: 850px;
+    }
+
+    .container-slider.removeslide-ipad {
+        height: 850px;
+    }
+
+
+    /*Middle Slide*/
+    .trip-slide-text {
+        padding: 15px 0;
+        font-size: 50px;
+    }
+
+
+    /*Services*/
+    .view-service img {
+        width: 30%;
+    }
+    /*Information Page*/
+}
+
+
+@media only screen and (max-width: 425px) {
+    .search-area .tab-content {
+        padding: 15px 0px;
+        border-radius: 10px;
+        border-top-left-radius: 0;
+    }
+    .dropdown-list li {
+        width: 33%;
+    }
+    body .ui-autocomplete {
+        min-width: 250px;
+    }
+    #reservation-form {
+        padding: 15px 0;
+    }
+    .header #reservation-form .tab-content #tours-tab > div.col-sm-2 {
+        bottom: 34px;
+        width: 98%;
+    }
+    .dropdown-list li > div.active {
+        text-align: center;
+    }
+    .filter-button {
+        width: 32px !important;
+        height: 32px !important;
+        padding: 0 !important;
+        text-align: center !important;
+        line-height: 32px !important;
+    }
+    .fixed-tab.fixed {
+        position: static !important;
+    }
+    .rooms_loop img{
+        height: 66px !important;
+    }
+    .rooms_loop > .row > div.text-right{
+        text-align: left !important;
+    }
+    .imgs-grid.imgs-grid-7 .imgs-grid-image:nth-child(2), .imgs-grid.imgs-grid-7 .imgs-grid-image:nth-child(3), .imgs-grid.imgs-grid-7 .imgs-grid-image:nth-child(4), .imgs-grid.imgs-grid-7 .imgs-grid-image:nth-child(5), .imgs-grid.imgs-grid-7 .imgs-grid-image:nth-child(7), .imgs-grid.imgs-grid-7 .imgs-grid-image:nth-child(6) {
+        height: auto !important;
+    }
+}

@@ -1,0 +1,22 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+    RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L,N]
+    
+    #RewriteBase /
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php?/$1 [L]
+</IfModule>
+# Example to cache images and CSS files
+# adjust and extend to your needs
+<ifModule mod_headers.c>
+  #  images expire after 1 month
+  <filesMatch ".(gif|png|jpg|jpeg|ico|pdf|svg|js)$">
+    Header set Cache-Control "max-age=2592000"
+  </filesMatch>
+  # CSS expires after 1 day
+  <filesMatch ".(css)$">
+    Header set Cache-Control "max-age=86400"
+  </filesMatch>
+</ifModule>

@@ -1,0 +1,5 @@
+admin/vendor/
+log-*.php
+error_log
+.env
+sftp-config.json

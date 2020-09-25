@@ -1,0 +1,180 @@
+.travellers-input-popup {
+    background: #f5f6fa;
+    border-top: 2px solid #005eb8;
+    padding: 10px;
+    position: absolute;
+    color: #484857;
+    /*width: 300px;*/
+    width: 100%;
+    min-width: 300px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 16px;
+    margin-top: 0px;
+    z-index: 9999;
+    display: none;
+    box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);
+}
+.travellers-input-popup i.fa.fa-times {
+    float: right;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.travellers-input-popup label {
+    color: #a3a3a3;
+}
+.travellers-input-popup p {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 16px;
+    text-align: left;
+    margin: 2px 0;
+    /*display: inline-block;*/
+}
+
+.clone-room{
+    clear: both;
+    /*display: table;*/
+    width: 100%;
+}
+.clone-room .numstepper {
+    float: left;
+    width: 50%;
+    /*display: table-cell;*/
+}
+.clonediv{
+    display: table;
+    width: 100%
+}
+.clonediv .clone-item{
+   display: table-cell;
+   float: none;
+}
+.clonediv .clone-item p {
+    font-size: 10px;
+}
+.clonediv .clone-item .numstepper{
+    float: none;
+    width: 100%;
+}
+
+.quantity-btn {
+    display: block;
+    float: left;
+    width: 35px;
+    height: 35px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 1rem;
+    line-height: 1;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-transition: opacity 200ms ease;
+    transition: opacity 200ms ease;
+    margin: 0;
+        overflow: hidden;
+    position: relative;
+    border: 1px solid #7d7d7d;
+    text-indent: 2.5em;
+    white-space: nowrap;
+    color: #7d7d7d;
+    background-color: transparent;
+    padding: 0.6875em 1em;
+}
+.small-btns .quantity-btn, .small-btns .quantity-input {
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+}
+.small-btns .travellers-input-popup p {
+    font-size: 11px;
+    letter-spacing: .5px;
+}
+
+.quantity-btn.quantity-right-plus {
+    border-radius: 0 0.1875rem 0.1875rem 0;
+    margin-left: -1px;
+}
+.quantity-btn.quantity-right-minus {
+    border-radius: 0.1875rem 0 0 0.1875rem;
+    margin-right: -1px;
+}
+.quantity-btn[disabled] {
+    opacity: 0.25;
+    cursor: default;
+}
+
+.quantity-left-minus::before, .quantity-right-plus::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0.5em;
+    left: 0.5em;
+    height: 2px;
+    background-color: currentColor;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.quantity-right-plus::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0.5em;
+    bottom: 0.5em;
+    left: 50%;
+    width: 2px;
+    background-color: currentColor;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.quantity-input {
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    width: 4rem;
+    height: 3.5075rem;
+    font-family: inherit;
+    font-size: 2rem;
+    font-weight: normal;
+    line-height: 1;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0.5rem;
+    margin: 0;
+    border: 1px solid #cacaca;
+    color: #7d7d7d;
+    background-color: #fefefe;
+    -webkit-box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
+    box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
+    -webkit-transition: border-color 0.25s ease-in-out, -webkit-box-shadow 0.5s;
+    transition: border-color 0.25s ease-in-out, -webkit-box-shadow 0.5s;
+    transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+    transition: box-shadow 0.5s, border-color 0.25s ease-in-out, -webkit-box-shadow 0.5s;
+}
+.quantity-input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+.numstepper::before, .numstepper::after {
+    content: "";
+    display: table;
+}
+.numstepper::after {
+    clear: both;
+}
+/*.clonediv .quantity-btn {
+    width: 30px;
+    height: 30px;
+}*/
+.clonediv .quantity-input {
+    /*width: 3rem;*/
+    /*height: 3rem;*/
+    font-size: 14px;
+}

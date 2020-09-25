@@ -1,0 +1,8 @@
+version: 2
+
+# execute alternate composer run before anything
+pre: /usr/local/bin/composer install --prefer-dist -d admin
+
+# make sure the new vendor folder is sustained during deploys
+sustained:
+  - admin/vendor
